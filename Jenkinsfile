@@ -7,4 +7,4 @@ def configMap = [
 ]
 
 echo "here we are deploying the catalogue"
-jenkinsEKS(configMap)
+JenkinsEKS(configMap)
