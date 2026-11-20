@@ -3,7 +3,7 @@
 
 def configMap = [
     project: "roboshop",
-    component: "catalogue",
+    component: "Catalogue",
     deploy_to : "dev",
     vesion : "1.0.0"
 ]
