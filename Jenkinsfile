@@ -7,10 +7,4 @@ def configMap = [
 ]
 
 echo "here we are deploying the catalogue"
-
-if( env.BRANCH_NAME.equalsIgnoreCase("main") ){
-    echo "please folow the RP"
-}
-else{
-    jenkinsEKS(configMap)
-}
+jenkinsEKS(configMap)
